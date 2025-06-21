@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 # Load the saved model and scaler together
-loaded_objects = pickle.load(open('C:/Users/sumit/Desktop/deployModel/trained_model_and_scaler.sav', 'rb'))
+loaded_objects = pickle.load(open('trained_model_and_scaler.sav', 'rb'))
 
 # Extract model and scaler
 loaded_model = loaded_objects['model']
